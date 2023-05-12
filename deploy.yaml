@@ -25,6 +25,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: phpmyadmin
+          image: nginx
           ports:
             - containerPort: 80
